@@ -1,0 +1,26 @@
+{
+    "name": "SpecificSearch",
+    "version": "0.0.1",
+    "description":"The easiest way to search your favorite websites.",
+    "homepage_url":"http://specificsearch.co/",
+    "manifest_version": 2,
+
+    "icons":{
+        "16":"img/16.png",
+        "48":"img/48.png",
+        "128":"img/128.png"
+    },
+
+    "permissions":[
+        "tabs"
+    ],
+
+    "browser_action":{
+        "default_icon":{
+            "19":"img/19.png",
+            "38":"img/38.png"
+        },
+        "default_title":"SpecificSearch",
+        "default_popup":"index.html"
+    }
+}
