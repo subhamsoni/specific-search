@@ -1,6 +1,6 @@
 {
     "name": "SpecificSearch",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description":"The easiest way to search your favorite websites.",
     "homepage_url":"http://specificsearch.co/",
     "manifest_version": 2,
