@@ -42,6 +42,7 @@ body{
 	font-size: 17px;
 	letter-spacing: px;
 	background-color: #131316;
+	color: #f2f2f2;
 	width: 407px;
 	height: 37px;
 	text-align: center;
@@ -52,10 +53,6 @@ body{
 	width: 477px;
 	height: 1px;
 	margin: auto;
-}
-
-#website{
-	color: #7e071f;
 }
 
 #keywords{
