@@ -1,27 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <!-- Head -->
 <head>
 	<!-- General Meta Tags And Other Stuff -->
-	<meta charset="utf-8">
-	<title>New Tab</title>
+	<meta charset="utf-8" />
+	<title>Specific Search</title>
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="screen" />
 	<!-- JS -->
-	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery-2.1.1.js"></script>
 </head>
 
 <!-- Body -->
 <body>
+	<h2>Specific Search</h2>
 	<!-- Form Container -->
 	<div id="main">
 		<!-- Form -->
 		<form id="form" autocomplete="off">
 			<!-- Website Name -->
-			<input type="text" id="website" class="input" required>
+			<input type="text" id="website" class="input" placeholder="Enter the website you wish to search" required="required">
 
 			<!-- Divider -->
 			<div id="divider"></div>
@@ -1656,11 +1657,11 @@
 			</div>
 
 			<!-- Keywords -->
-			<input type="text" id="keywords" class="input" required>
+			<input type="text" id="keywords" class="input" placeholder="Enter your search query" required>
 
 			<!-- Submit -->
 			<br><br>
-			<input type="image" id="submit" src="img/arrow_light.png">
+			<input type="image" id="submit" src="img/arrow.png">
 		</form>
 	</div>
 
