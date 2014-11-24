@@ -1,10 +1,10 @@
 html, body{
-    width: 577px;
-    height: 337px;
-    padding: 0px;
+        width: 577px;
+        height: 337px;
+        padding: 0px;
 	margin: 0px;
-	background-color: #131316;
-	color: #f2f2f2;
+	background-color: #ffffff;
+	color: #000000;
 	font-family: 'Raleway-Light';
 	border: none;
 }
@@ -41,15 +41,15 @@ body{
 	border: none;
 	font-size: 17px;
 	letter-spacing: px;
-	background-color: #131316;
-	color: #f2f2f2;
+	background-color: #ffffff;
+	color: #000000;
 	width: 407px;
 	height: 37px;
 	text-align: center;
 }
 
 #divider{
-	background-color: #7e071f;
+	background-color: #000000;
 	width: 477px;
 	height: 1px;
 	margin: auto;
@@ -100,7 +100,7 @@ body{
 }
 
 #submit{
-	background-color: rgba(0,0,0,0);
+	background-color: #ffffff;
 	border: none;
 	outline: none;
 	width: 17px;
